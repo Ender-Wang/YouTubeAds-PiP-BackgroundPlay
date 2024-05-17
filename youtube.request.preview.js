@@ -2415,8 +2415,6 @@
         n = {
           //   lyricLang: "zh-Hans", //Default Simplified Chinese
           //   captionLang: "zh-Hans", //Default Simplified Chinese
-          //   lyricLang: "en", //Default lyrics English off
-          //   captionLang: "en",   //Default subtitles English off
           blockUpload: !0,
           blockImmersive: !0,
           debug: !1,
