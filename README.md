@@ -1,6 +1,6 @@
 # YouTube Ads Removed, PiP, Background Play
 
-Quantumult X link: [YouTubeAds.conf](https://raw.githubusercontent.com/Ender-Wang/YouTubeAds-PiP-BackgroundPlay/main/YouTubeAds.conf).
+Quantumult X Rewrite link: [YouTubeAds.conf](https://raw.githubusercontent.com/Ender-Wang/YouTubeAds-PiP-BackgroundPlay/main/YouTubeAds.conf).
 
 # Credit
 
