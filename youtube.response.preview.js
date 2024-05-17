@@ -3104,7 +3104,7 @@ ${c[0][g][0]}`;
       }
       addTranslateCaption() {
         let e = this.argument.captionLang;
-        e !== "off" &&
+        e == "off" &&
           this.iterate(this.message, "captionTracks", (n, r) => {
             let s = n.captionTracks,
               o = n.audioTracks;
