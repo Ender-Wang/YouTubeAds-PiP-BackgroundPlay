@@ -2806,8 +2806,8 @@
     }
     decodeArgument() {
       let e = {
-          lyricLang: "\u6B4C\u8BCD\u7FFB\u8BD1\u8BED\u8A00",
-          captionLang: "\u5B57\u5E55\u7FFB\u8BD1\u8BED\u8A00",
+          //   lyricLang: "\u6B4C\u8BCD\u7FFB\u8BD1\u8BED\u8A00",   //Default lyrics Simplified Chinese off
+          //   captionLang: "\u5B57\u5E55\u7FFB\u8BD1\u8BED\u8A00", //Default subtitles Simplified Chinese off
           blockUpload: "\u5C4F\u853D\u4E0A\u4F20\u6309\u94AE",
           blockImmersive: "\u5C4F\u853D\u9009\u6BB5\u6309\u94AE",
           debug: "\u542F\u52A8\u8C03\u8BD5\u6A21\u5F0F",
@@ -2815,8 +2815,8 @@
         n = {
           //   lyricLang: "zh-Hans", //Default Simplified Chinese
           //   captionLang: "zh-Hans", //Default Simplified Chinese
-          lyricLang: "en",
-          captionLang: "en",
+          //   lyricLang: "en", //Default lyrics English off
+          //   captionLang: "en",   //Default subtitles English off
           blockUpload: !0,
           blockImmersive: !0,
           debug: !1,
