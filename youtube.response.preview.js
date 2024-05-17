@@ -3117,15 +3117,15 @@ ${c[0][g][0]}`;
                   g = a[l.languageCode];
                 g && g > c && ((c = g), (f = m)), (l.isTranslatable = !0);
               }
-              //   if (c !== 2) {
-              //     let m = new $e({
-              //       baseUrl: s[f].baseUrl + `&tlang=${e}`,
-              //       name: { runs: [{ text: `@Enhance (${e})` }] },
-              //       vssId: `.${e}`,
-              //       languageCode: e,
-              //     });
-              //     s.push(m);
-              //   }
+              if (c !== 2) {
+                let m = new $e({
+                  baseUrl: s[f].baseUrl + `&tlang=${e}`,
+                  name: { runs: [{ text: `@Enhance (${e})` }] },
+                  vssId: `.${e}`,
+                  languageCode: e,
+                });
+                s.push(m);
+              }
               if (Array.isArray(o)) {
                 let m = c === 2 ? f : s.length - 1;
                 for (let l of o)
